@@ -1,0 +1,218 @@
+/* X */
+
+/* Color Palette
+limegreen #32CD32 rgb(50,205,50)
+darkturquoise 	#00CED1 rgb(0,206,209)
+black
+yellow
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(243, 243, 243);
+}
+
+/* NAVBAR section *************************************************************************/
+
+.navbar {
+    overflow: hidden;
+    /* background-color: rgba(240, 240, 240, 0.6); this is a whiter color for a lighter theme */
+    background-color: darkturquoise;
+    border: 5px black;
+    position: fixed;
+    top: 0;
+    width: 100%;    
+    box-shadow: 1px 1px 5px 1px rgb(63, 63, 63);
+    z-index: 99;    
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* END NAVBAR section *********************************************************************/
+
+
+
+/* SPLASH section *************************************************************************/
+
+.splash {
+    position: relative;
+}
+
+.splash img {
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    top: 0;
+    z-index: -1;
+}
+
+.left-text-img {
+    position: absolute;
+    bottom: 40%;
+    left: 50px;
+}
+
+.right-text-img {
+    position: absolute;
+    bottom: 30%;
+    right: 50px;
+    text-align: right;
+}
+
+.center-text-img {
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+}
+
+.splash-button {
+    display: block;
+    color: white;
+    font-size: 50px;
+    border: 5px white double;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.splash p {
+    font-size: 100px;
+    font-style: italic;
+    color: white;
+}
+
+.splash a {
+    text-decoration: none;
+}
+
+.splash a:link, a:visited {
+    color: white;
+}
+
+.splash-scroll-down {
+    position: absolute;
+}
+
+/* END SPLASH section **********************************************************************/
+
+
+
+/* CONTENT section */
+
+.full-width-row {
+    width: 100%;
+}
+
+.full-width-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section-row {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.section-column {
+    width: 47.5%;
+}
+
+.column-left {
+    float: left;
+}
+
+.column-right {
+    float:right;
+}
+
+.section-header {
+    color: darkturquoise;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-box p {
+    font-size: 25px;
+    height: ;
+}
+
+h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+     
+}
+
+#home {
+    margin-top: 50px;
+}
+
+#footer {
+    margin-top: 25px;
+}
+
+/*
+.col-md-6 img {
+    max-width: 95%;
+    border: 2px darkturquoise solid;
+    border-radius: 4px;
+    box-shadow: 0 10px 6px -6px #777;
+}
+*/
+
+/* END CONTENT section */
+
+
+
+/* BAZAAR section  */
+
+.bazaar-card { 
+    align-items: stretch;   
+    border: 5px darkturquoise double;
+    border-radius: 10px;
+}
+
+/* END BAZAAR section */
+
+
+
+/* X */
+
+
+
+/* X */
+
+
+
+/* X */
+
+
+
+/* X */
